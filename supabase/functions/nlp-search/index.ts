@@ -108,7 +108,7 @@ Return your response as a JSON object with this structure:
     const groqResponse = await fetch('https://api.groq.com/openai/v1/chat/completions', {
       method: 'POST',
       headers: {
-        'Authorization': `Bearer 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`,
+        'Authorization': `Bearer ${groqApiKey}`,
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
