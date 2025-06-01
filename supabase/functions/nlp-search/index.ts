@@ -112,7 +112,7 @@ Return your response as a JSON object with this structure:
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'llama-3.1-8b-instant',
+        model: 'llama3-70b-8192',
         messages: [
           {
             role: 'system',
